@@ -34,6 +34,10 @@ console.log(nombre("coucou"))
 for (c of "cou") { 
     console.log(c + " : " + nombre(c))
 }
+console.log('----------------')
+// fin de test de nombre(chaine)
+
+
 // test de somme(nombre)
 console.log(somme(132))
 
@@ -42,14 +46,19 @@ console.log(somme(4))
 console.log("4".charCodeAt(0))
 console.log("4".charAt(0))
 
-// conversion chaine de caractères et nombre
+// conversion chaine de caracteres et nombre
 console.log(typeof "4".charAt(0))
 console.log(parseInt("4".charAt(0)))
 console.log(typeof parseInt("4".charAt(0)))
+
+console.log('----------------')
+// fin de test de somme(nombre)
 
 // test de chiffreAssocie(chaine)
 
 //test valeur somme des chiffres
 console.log(nombre("coucou"))
 console.log(chiffreAssocie("coucou"))
+
+console.log('----------------')
 // fin de test de chiffreAssocie(chaine)
